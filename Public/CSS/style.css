@@ -1,0 +1,133 @@
+body{
+    background-color: #406882;
+    font-size: 0.9em;
+    font-family: sans-serif;
+  
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+}
+/*table*/
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 500px;
+    margin-top: 70px;
+    border: 2px solid white;
+    box-shadow: 7px 10px white;
+}
+.styled-table  tr {
+    background-color: #FFBD35;
+    color: #ffffff;
+    text-align: left;
+    transition: all .2s ease-in-out;
+}
+.styled-table td{
+    transition: all .2s ease-in-out;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 2px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #FFBD35;
+    color:black;
+}
+.styled-table tbody tr:nth-of-type(even) {
+    color:#FFBD35;
+    background-color:black;
+}
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+/*hover*/
+
+.styled-table tr:hover{
+   transform: scale(1.1);
+}
+.styled-table td:hover{
+    transform: scale(1.1);
+ }
+ /*input box*/
+ .input{
+     background-color: #FFBD35;
+     width: 300px;
+     height:400px;
+     margin-top: 100px;
+     color: black;
+     border-radius: 15px;
+     transition: all .2s ease-in-out;
+     font-weight: bold;
+     border: 3px solid black;
+     padding: 10px;
+     box-shadow: 7px 10px white;
+     
+ }
+.input:hover{
+    transform: scale(1.1);
+}
+ .input p,input{
+     margin-left: 40px;
+     border: none;
+     border-radius: 3px;
+ }
+.input input:hover{
+    border-bottom:2px solid black;
+}
+.btn{
+    margin-left:10px;
+}
+ .input .btn1, .btn2, .btn3, .btn4{
+    margin-top:30px;
+    width: 90px;
+    height: 30px;
+    font-weight: bolder;
+    color: black;
+    border:2px solid black;
+    border-radius:10px;
+    transition: all .2s ease-in-out;
+    background-color: #FFBD35;
+ }
+ .input .btn2:hover{
+     background-color: red;
+     transform: scale(1.1);
+ }
+ .input .btn1:hover{
+    transform: scale(1.1);
+    background-color: white;
+ }
+ .input .btn3:hover{
+    transform: scale(1.1);
+    background-color: white;
+ }
+
+
+.Title{
+    margin-left: 100px;
+}
+ .Title p{
+    display: inline;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20px;
+ }
+ .color1{
+     color:#FFBD35
+ }
+ .First{
+     margin-left: 40px;
+     margin-top: 30px;
+ }
+ .First p{
+    display: inline;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20px;
+ }

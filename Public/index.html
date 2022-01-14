@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+     
+ <div class="container">
+ 
+    <div class="input">
+        
+            <p>Student ID</p> 
+            <input  name="" id="id" placeholder="Student ID">
+            <p>Student Name</p> 
+            <input type="text" name="" id="name" placeholder="Student Name">
+            <p>Student Age</p> 
+            <input type="number" name="" id="age" placeholder="Student Age">
+            <p>Student Department</p> 
+            <input type="text" name="" id="dept" placeholder="Student Department">
+            <p>STudent Province</p> 
+            <input type="text" name="" id="prov" placeholder="Student province"
+>
+            <br>
+            <div class="btn">
+                <button onclick="insertion()" id="insert" class="btn1"> Add</button>
+                <button onclick="editRecord()" id="update" class="btn3"> Update</button>
+                <button onclick="deleteRecord()" class="btn2"> delete</button>
+                <button onclick="findRecord()" id="search" class="btn4"> Search</button>
+                
+            </div>
+        </div>
+    <div class="table">
+          <div class="Title" >
+        <p class="color1">Table</p>
+        <p class="color2">Information</p>
+           </div>
+        <table id="outputTable" class="styled-table">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Student Name</th>
+                    <th>Student Age</th>
+                    <th>Student Department</th>
+                    <th>Student Province</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+
+
+        </table>
+
+    </div>
+</div>
+    <script src="JS/index.js"></script>
+</body>
+</html>

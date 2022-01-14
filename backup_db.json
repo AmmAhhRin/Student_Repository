@@ -1,0 +1,25 @@
+{
+    "Student": [
+      {
+        "name": "Somphors Yun",
+        "age": "19",
+        "dept": "DSE",
+        "prov": "Kampong Speu",
+        "id": 1
+      },
+      {
+        "id": 2,
+        "name": "Sothea Ban",
+        "age": "19",
+        "dept": "DAR",
+        "prov": "Kandal"
+      },
+      {
+        "name": "Sreylin Chey",
+        "age": "19",
+        "dept": "DTM",
+        "prov": "Kampot",
+        "id": 3
+      }
+    ]
+  }

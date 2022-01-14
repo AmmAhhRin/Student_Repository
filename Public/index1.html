@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+     
+    <div class="headerline"></div>
+    <div class="title-container">
+        <h2 style="color: chocolate; font-weight: bolder;">Students Repository</h2>
+    </div>
+    <div class="sub-title">
+        <p class="p1" style="margin-top: 1.8vw; font-family: 'Lora', serif; font-weight: bolder; color: rgb(231, 104, 13); margin-left: 15vw;">Input Form</p>
+        <p class="p2" style=" font-family: 'Lora', serif; font-weight: bolder; color: rgb(231, 104, 13);">Student Repository Table</p>
+    </div> 
+    <div class="container">
+        <div class="input">
+            <div class="input-btn">
+                <div class="data-input">
+                    <p>Student ID</p>
+                    <input type="number" name="" id="id" placeholder="Enter student ID " style="font-size: 1.1vw; padding: 0.7vw;" >
+                    <p>Student Name</p>
+                    <input type="text" name="" id="name" placeholder="Enter student name" style="font-size: 1.1vw; padding: 0.7vw;">
+                    <p>Student Age</p>
+                    <input type="number" name="" id="age" placeholder="Enter student age" style="font-size: 1.1vw; padding: 0.7vw;">
+                    <p>Student Department</p>
+                    <input type="text" name="" id="dept" placeholder="Enter student department" style="font-size: 1.1vw; padding: 0.7vw;">
+                    <p>Student Province</p>
+                    <input type="text" name="" id="prov" placeholder="Enter student province" style="font-size: 1.1vw; padding: 0.7vw;">
+                    <br>
+                </div>
+                <div class="btn">
+                    <button onclick="insertion()" id="insert" class="btn1"  >Insert</button>
+                    <button onclick="editRecord()" id="update" class="btn3"  >Update</button>
+                    <button onclick="deleteRecord()" id="delete" class="btn2" >Delete</button>
+                    <button onclick="findRecord()" id="search" class="btn4" >Search</button>               
+                </div>
+            </div>
+        </div>
+        
+        <div class="table">
+            <table id="outputTable" class="styled-table">
+                <thead>
+                    <tr style="font-size: 1.02vw;">
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Student Age</th>
+                        <th>Student Department</th>
+                        <th>Province</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>   
+            </table>
+        </div>
+    </div>
+    <script src="JS/index.js">
+    </script>
+</body>
+</html>
